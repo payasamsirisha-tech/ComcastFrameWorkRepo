@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[FaceBook_1142 is created successfully header]]>
+    </line>
+    <line>
+      <![CDATA[FaceBook_1142 is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Instagram_2176 is created successfully header]]>
+    </line>
+    <line>
+      <![CDATA[Instagram_2176 is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Energy is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Press is created successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-02T20:55:37 IST" name="Suite" finished-at="2026-09-02T20:56:46 IST" duration-ms="68083">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="CreateOrg_phnnum_Industries.orgWithIndustries()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" name="orgWithIndustries" class="com.comcast.crm.orgtest.CreateOrg_phnnum_Industries"/>
+        <method signature="CreateOrg_phnnum_Industries.orgWithPhnnum()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" name="orgWithPhnnum" class="com.comcast.crm.orgtest.CreateOrg_phnnum_Industries"/>
+        <method signature="CreateContactWithName_ORG_SupportsDates.ContactWithOrg()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDates@5c671d7f]" name="ContactWithOrg" class="com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDates"/>
+        <method signature="CreateContactWithName_ORG_SupportsDates.ContactWithSupportDates()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDates@5c671d7f]" name="ContactWithSupportDates" class="com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDates"/>
+      </group> <!-- RegressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrg_phnnum_Industries.createOrg()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" name="createOrg" class="com.comcast.crm.orgtest.CreateOrg_phnnum_Industries"/>
+        <method signature="CreateContactWithName_ORG_SupportsDates.createContact()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDates@5c671d7f]" name="createContact" class="com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDates"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2026-09-02T20:55:37 IST" name="Test-runner-1" finished-at="2026-09-02T20:56:46 IST" duration-ms="68083">
+      <class name="com.comcast.crm.orgtest.CreateOrg_phnnum_Industries">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:55:37 IST" name="configBC" finished-at="2026-09-02T20:55:44 IST" duration-ms="6673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:55:44 IST" name="configBM" finished-at="2026-09-02T20:55:52 IST" duration-ms="7965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrg()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:55:52 IST" name="createOrg" finished-at="2026-09-02T20:56:06 IST" duration-ms="13618" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FaceBook_1142 is created successfully header]]>
+            </line>
+            <line>
+              <![CDATA[FaceBook_1142 is created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:06 IST" name="configAM" finished-at="2026-09-02T20:56:09 IST" duration-ms="3572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:09 IST" name="configBM" finished-at="2026-09-02T20:56:12 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="orgWithIndustries()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:12 IST" name="orgWithIndustries" finished-at="2026-09-02T20:56:23 IST" duration-ms="10857" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Instagram_2176 is created successfully header]]>
+            </line>
+            <line>
+              <![CDATA[Instagram_2176 is created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Energy is created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Press is created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orgWithIndustries -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:23 IST" name="configAM" finished-at="2026-09-02T20:56:45 IST" duration-ms="22273" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+  (Session info: chrome=152.0.7977.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c9de8cd3f3ad09af74b31d125ecd1d2, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.75 (4999cc1efed3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56975}, goog:processID: 20696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c9de8cd3f3ad09af74b31d125ecd1d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+  (Session info: chrome=152.0.7977.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c9de8cd3f3ad09af74b31d125ecd1d2, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.75 (4999cc1efed3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56975}, goog:processID: 20696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c9de8cd3f3ad09af74b31d125ecd1d2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.comcast.crm.objectrepo.HomePage.signout(HomePage.java:54)
+at com.comcast.crm.basetest.BaseClass.configAM(BaseClass.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:45 IST" name="configBM" finished-at="2026-09-02T20:56:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="orgWithPhnnum()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:45 IST" name="orgWithPhnnum" finished-at="2026-09-02T20:56:45 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+  (Session info: chrome=152.0.7977.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c9de8cd3f3ad09af74b31d125ecd1d2, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.75 (4999cc1efed3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56975}, goog:processID: 20696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c9de8cd3f3ad09af74b31d125ecd1d2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+  (Session info: chrome=152.0.7977.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c9de8cd3f3ad09af74b31d125ecd1d2, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.75 (4999cc1efed3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56975}, goog:processID: 20696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c9de8cd3f3ad09af74b31d125ecd1d2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.comcast.crm.objectrepo.HomePage.signout(HomePage.java:54)
+at com.comcast.crm.basetest.BaseClass.configAM(BaseClass.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orgWithPhnnum -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:46 IST" name="configAM" finished-at="2026-09-02T20:56:46 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_Industries@3a52dba3]" started-at="2026-09-02T20:56:46 IST" name="configAC" finished-at="2026-09-02T20:56:46 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrg_phnnum_Industries -->
+    </test> <!-- Test-runner-1 -->
+  </suite> <!-- Suite -->
+</testng-results>
