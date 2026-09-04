@@ -13,6 +13,9 @@ public class HomePage {
 	
 	@FindBy(linkText = "Contacts")
 	private WebElement contactLink;
+	
+	@FindBy(linkText = "Product")
+	private WebElement productLink;
 
 	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private WebElement adminbtn;
@@ -39,6 +42,11 @@ public class HomePage {
 	public WebElement getadminbtn() {
 		return adminbtn;
 
+	}
+
+
+	public WebElement getProductLink() {
+		return productLink;
 	}
 
 
