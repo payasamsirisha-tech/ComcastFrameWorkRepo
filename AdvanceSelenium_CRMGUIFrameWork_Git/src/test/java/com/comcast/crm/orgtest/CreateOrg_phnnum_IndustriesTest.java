@@ -20,7 +20,7 @@ import com.comcast.crm.objectrepo.OrgPage;
 @Listeners(com.comcarst.crm.listnerutility.ListnerImpClass.class)
 //listner give in suite level
 
-public class CreateOrg_phnnum_Industries extends BaseClass {
+public class CreateOrg_phnnum_IndustriesTest extends BaseClass {
 	
 	@Test(groups="smokeTest")
 	public void createOrg() throws IOException, Throwable {

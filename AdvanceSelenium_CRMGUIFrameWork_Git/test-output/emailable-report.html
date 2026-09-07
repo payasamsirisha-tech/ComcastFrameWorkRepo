@@ -8,77 +8,13 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test-runner-1</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">68,083</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">69,978</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test-runner-1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries</td><td><a href="#m0">configAM</a></td><td rowspan="1">1788362783713</td><td rowspan="1">22273</td></tr><tr><th colspan="4">Test-runner-1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries</td><td><a href="#m1">configAC</a></td><td rowspan="1">1788362806014</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">configAM</a></td><td rowspan="1">1788362806009</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">configBM</a></td><td rowspan="1">1788362805994</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test-runner-1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries</td><td><a href="#m4">orgWithPhnnum</a></td><td rowspan="1">1788362805997</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test-runner-1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries</td><td><a href="#m5">createOrg</a></td><td rowspan="1">1788362752622</td><td rowspan="1">13618</td></tr><tr class="passedeven"><td><a href="#m6">orgWithIndustries</a></td><td rowspan="1">1788362772854</td><td rowspan="1">10857</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest</td><td><a href="#m0">createOrg</a></td><td rowspan="1">1788761068590</td><td rowspan="1">18419</td></tr><tr class="passedeven"><td><a href="#m1">orgWithIndustries</a></td><td rowspan="1">1788761093754</td><td rowspan="1">12295</td></tr><tr class="passedeven"><td><a href="#m2">orgWithPhnnum</a></td><td rowspan="1">1788761112455</td><td rowspan="1">12274</td></tr></tbody>
 </table>
-<h2>Test-runner-1</h2><h3 id="m0">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries#configAM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign Out&quot;}
-  (Session info: chrome=152.0.7977.65)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9de8cd3f3ad09af74b31d125ecd1d2, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.75 (4999cc1efed3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56975}, goog:processID: 20696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9de8cd3f3ad09af74b31d125ecd1d2
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-	at com.comcast.crm.objectrepo.HomePage.signout(HomePage.java:54)
-	at com.comcast.crm.basetest.BaseClass.configAM(BaseClass.java:86)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries#configAC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries#configAM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries#configBM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries#orgWithPhnnum</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign Out&quot;}
-  (Session info: chrome=152.0.7977.65)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9de8cd3f3ad09af74b31d125ecd1d2, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.75 (4999cc1efed3..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56975}, goog:processID: 20696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56975/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9de8cd3f3ad09af74b31d125ecd1d2
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-	at com.comcast.crm.objectrepo.HomePage.signout(HomePage.java:54)
-	at com.comcast.crm.basetest.BaseClass.configAM(BaseClass.java:86)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries#createOrg</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">FaceBook_1142 is created successfully header<br/>FaceBook_1142 is created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.comcast.crm.orgtest.CreateOrg_phnnum_Industries#orgWithIndustries</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Instagram_2176 is created successfully header<br/>Instagram_2176 is created successfully<br/>Energy is created successfully<br/>Press is created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest#createOrg</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">FaceBook_3283 is created successfully header<br/>FaceBook_3283 is created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest#orgWithIndustries</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Instagram_1742 is created successfully header<br/>Instagram_1742 is created successfully<br/>Energy is created successfully<br/>Press is created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest#orgWithPhnnum</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">wattsapp_1329 is created successfully header<br/>wattsapp_1329 is created successfully<br/>9878987656 is created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -9,7 +9,7 @@ public class ContactinfoPage {
 	@FindBy(id="dtlview_Support Start Date")
 	private WebElement startdateinfomsg;
 	
-	@FindBy(id="dtlview_Support End Dates")
+	@FindBy(id="dtlview_Support End Date")
 	private WebElement enddateinfomsg;
 	
 	@FindBy(className ="dvHeaderText")

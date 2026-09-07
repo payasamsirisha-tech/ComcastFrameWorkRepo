@@ -28,7 +28,7 @@ import com.comcast.crm.objectrepo.OrgPage;
 /**
  * @author lakshmi
  */
-public class CreateContactWithName_ORG_SupportsDates extends BaseClass {
+public class CreateContactWithName_ORG_SupportsDatesTest extends BaseClass {
 
 	@Test(groups = "smokeTest")
 	

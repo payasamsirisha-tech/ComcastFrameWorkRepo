@@ -4,6 +4,11 @@
   <artifactId>AdvanceSelenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties> 
+<maven.compiler.target>1.8</maven.compiler.target> 
+<maven.compiler.source>1.8</maven.compiler.source> 
+</properties>
+  
   <dependencies>
   
   <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -13,6 +18,7 @@
     <version>4.39.0</version>
     <scope>compile</scope>
 </dependency>
+
 <!-- Source: https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
@@ -65,12 +71,7 @@
     <scope>compile</scope>
 </dependency>
 <!-- Source: https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.0.9</version>
-    <scope>compile</scope>
-</dependency>
+
   
   
 </dependencies>

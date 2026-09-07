@@ -16,7 +16,7 @@ import com.comcast.crm.objectrepo.LoginPage;
 import com.comcast.crm.objectrepo.OrgInfoPage;
 import com.comcast.crm.objectrepo.OrgPage;
 
-public class DeleteOrgTest {
+public class DeleteOrg {
 	public static void main(String[] args) throws Throwable {
 		/* createobject for fileutility */
 		FileUtility fLib=new FileUtility();
