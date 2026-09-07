@@ -4,6 +4,30 @@
   <artifactId>AdvanceSelenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <profiles>
+  <profile>
+  <id>smoke</id>
+  
+  <build>
+<plugins>
+   
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>suite_smokeTest.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    
+</plugins>
+</build>
+  
+ </profile>
+  </profiles>
+
   <properties> 
 <maven.compiler.target>1.8</maven.compiler.target> 
 <maven.compiler.source>1.8</maven.compiler.source> 
@@ -76,21 +100,6 @@
   
 </dependencies>
 
-<build>
-<plugins>
-   
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-    
-</plugins>
-</build>
+
   
 </project>

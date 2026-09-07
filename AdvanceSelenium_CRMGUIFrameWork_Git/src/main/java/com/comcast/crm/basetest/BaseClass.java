@@ -50,7 +50,9 @@ public class BaseClass {
 	// parallel execution
 	public void configBC() throws Throwable {
 		System.out.println("===launch browser===");
-		String BROWSER = fLib.getDataFromPropertyFile("browser");
+		//String BROWSER = fLib.getDataFromPropertyFile("browser");
+		String BROWSER=System.getProperty("browser",fLib.getDataFromPropertyFile("browser") );
+		
 		// String BROWSER = browser;
 
 		if (BROWSER.equalsIgnoreCase("chrome")) {
@@ -71,9 +73,12 @@ public class BaseClass {
 	@BeforeMethod(groups = { "smokeTest", "RegressionTest" })
 	public void configBM() throws IOException {
 		System.out.println("====loging====");
-		String URL = fLib.getDataFromPropertyFile("url");
-		String USERNAME = fLib.getDataFromPropertyFile("username");
-		String PASSWROD = fLib.getDataFromPropertyFile("password");
+//		String URL = fLib.getDataFromPropertyFile("url");
+//		String USERNAME = fLib.getDataFromPropertyFile("username");
+//		String PASSWROD = fLib.getDataFromPropertyFile("password");
+		String URL = System.getProperty("url",fLib.getDataFromPropertyFile("url"));
+		String USERNAME = System.getProperty("username",fLib.getDataFromPropertyFile("username"));
+		String PASSWROD =System.getProperty("password", fLib.getDataFromPropertyFile("password"));
 		LoginPage login = new LoginPage(driver);
 		login.LoginToApp(URL, USERNAME, PASSWROD);
 
