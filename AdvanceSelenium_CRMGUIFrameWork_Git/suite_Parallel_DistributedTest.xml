@@ -3,12 +3,12 @@
 <suite thread-count="2" parallel="tests" name="Suite">
   <test name="Test-runner-1">
     <classes>
-      <class name="com.comcast.crm.orgtest.CreateOrg_phnnum_Industries"/>
+      <class name="com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest"/>
     </classes>
   </test> <!-- Test -->
    <test name="Test-runner-2">
     <classes>
-      <class name="com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDates"/>
+      <class name="com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
