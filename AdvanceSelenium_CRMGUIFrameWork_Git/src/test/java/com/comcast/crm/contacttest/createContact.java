@@ -29,7 +29,7 @@ import com.comcast.crm.objectrepo.CreateContactPage;
 import com.comcast.crm.objectrepo.HomePage;
 import com.comcast.crm.objectrepo.LoginPage;
 
-public class createContactTest  {
+public class createContact  {
 
 	public static void main(String[] args) throws Throwable {
 		/* createobject for fileutility */
