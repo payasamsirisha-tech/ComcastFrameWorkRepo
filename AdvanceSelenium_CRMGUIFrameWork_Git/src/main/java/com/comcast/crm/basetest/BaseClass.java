@@ -35,7 +35,7 @@ public class BaseClass {
 	public JavaUtility jLib = new JavaUtility();
 	public WebDriverUtility wLib = new WebDriverUtility();
 	public WebDriver driver;
-	//public  WebDriver sdriver; // for listner
+	public  WebDriver sdriver; // for listner
 	
 
 	@BeforeSuite(groups = { "smokeTest", "RegressionTest" })
@@ -67,7 +67,7 @@ public class BaseClass {
 
 		}
 		//sdriver = driver; // for listner but it is not paticepate in parallel execution so creating utility claa
-		UtilityClassObject.setDriver(driver);
+		UtilityClassObject.setDriver(sdriver);
 	}
 
 	@BeforeMethod(groups = { "smokeTest", "RegressionTest" })
