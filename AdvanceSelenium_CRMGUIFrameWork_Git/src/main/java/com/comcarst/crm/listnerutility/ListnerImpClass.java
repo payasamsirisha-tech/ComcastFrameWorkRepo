@@ -81,7 +81,7 @@ public class ListnerImpClass implements ITestListener, ISuiteListener {
 //		} catch (IOException e) {
 //           e.printStackTrace();
 //		}
-
+//hiiii sandy
 		test.addScreenCaptureFromBase64String(src, testname+"_"+time);
 		}
 		catch(Exception e)
