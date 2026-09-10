@@ -119,12 +119,13 @@ public class CreateContactWithName_ORG_SupportsDatesTest extends BaseClass {
 
 		String actenddate = contactinfo.getEnddateinfomsg().getText();
 		soft.assertEquals(actenddate, enddate);
-		soft.assertAll();
+		
 		Reporter.log(enddate + " is created successfully", true);
 //		if (actenddate.equals(enddate)) {
 //			System.out.println(enddate + " is created sucessfully====>PASS");
 //		} else {
 //			System.out.println(enddate + " not created");
+		soft.assertAll();
 //		}
 
 	}
@@ -152,7 +153,8 @@ public class CreateContactWithName_ORG_SupportsDatesTest extends BaseClass {
 		// verify the header info
 		String headerinfo = orginfo.getOrgHeaderMsg().getText();
 		boolean status = headerinfo.contains(orgname);
-		Assert.assertEquals(status, true);
+		SoftAssert soft = new SoftAssert();
+		soft.assertEquals(status, true);
 		Reporter.log(orgname + " is created successfully", true);
 //		if (headerinfo.contains(orgname)) {
 //			System.out.println(orgname + " is created sucessfully====");
@@ -188,7 +190,7 @@ public class CreateContactWithName_ORG_SupportsDatesTest extends BaseClass {
 
 		String contactheaderinfo = contatcinfo.getContactheaderinfo().getText();
 		boolean contactstatus = contactheaderinfo.contains(lastname);
-		Assert.assertEquals(contactstatus, true);
+		soft.assertEquals(contactstatus, true);
 		Reporter.log(lastname + " is created successfully", true);
 //		if (contactheaderinfo.contains(lastname)) {
 //			System.out.println(lastname + " is created sucessfully");
@@ -198,13 +200,14 @@ public class CreateContactWithName_ORG_SupportsDatesTest extends BaseClass {
 		// verify with orgname
 		String actorgName = contatcinfo.getContactorgnameinfo().getText();
 		boolean actorginfo = actorgName.trim().equals(orgname);
-		Assert.assertEquals(actorginfo, true);
+		soft.assertEquals(actorginfo, true);
 		Reporter.log(orgname + " is created successfully", true);
 //		if (actorgName.trim().equals(orgname)) {
 //			System.out.println(orgname + " is created sucessfully====>PASS");
 //		} else {
 //			System.out.println(orgname + " not created");
 //		}
+		soft.assertAll();
 
 	}
 

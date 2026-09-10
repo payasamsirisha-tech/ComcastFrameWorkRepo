@@ -9,7 +9,7 @@
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configAS"/>
-          <include name="ContactWithSupportDates"/>
+          <include name="ContactWithOrg"/>
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>

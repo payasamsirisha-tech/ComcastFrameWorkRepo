@@ -1,85 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[lakshmi4857 is created]]>
+      <![CDATA[FaceBook_3424 is created successfully header]]>
     </line>
     <line>
-      <![CDATA[FaceBook_4978 is created successfully header]]>
+      <![CDATA[FaceBook_3424 is created successfully]]>
     </line>
     <line>
-      <![CDATA[FaceBook_4978 is created successfully]]>
+      <![CDATA[Instagram_3087 is created successfully header]]>
+    </line>
+    <line>
+      <![CDATA[Instagram_3087 is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Energy is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Press is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[wattsapp_4511 is created successfully header]]>
+    </line>
+    <line>
+      <![CDATA[wattsapp_4511 is created successfully]]>
+    </line>
+    <line>
+      <![CDATA[9878987656 is created successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-09-08T15:38:03 IST" name="Suite" finished-at="2026-09-08T15:39:43 IST" duration-ms="100315">
+  <suite started-at="2026-09-10T13:00:36 IST" name="Default suite" finished-at="2026-09-10T13:01:11 IST" duration-ms="35521">
     <groups>
+      <group name="RegressionTest">
+        <method signature="CreateOrg_phnnum_IndustriesTest.orgWithIndustries()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" name="orgWithIndustries" class="com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest"/>
+        <method signature="CreateOrg_phnnum_IndustriesTest.orgWithPhnnum()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" name="orgWithPhnnum" class="com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest"/>
+      </group> <!-- RegressionTest -->
       <group name="smokeTest">
-        <method signature="CreateContactWithName_ORG_SupportsDatesTest.createContact()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" name="createContact" class="com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest"/>
-        <method signature="CreateOrg_phnnum_IndustriesTest.createOrg()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@24313fcc]" name="createOrg" class="com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest"/>
+        <method signature="CreateOrg_phnnum_IndustriesTest.createOrg()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" name="createOrg" class="com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2026-09-08T15:38:03 IST" name="Test" finished-at="2026-09-08T15:39:43 IST" duration-ms="100315">
+    <test started-at="2026-09-10T13:00:36 IST" name="Default test" finished-at="2026-09-10T13:01:11 IST" duration-ms="35521">
       <class name="com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@24313fcc]" started-at="2026-09-08T15:38:55 IST" name="configBC" finished-at="2026-09-08T15:39:01 IST" duration-ms="5931" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@24313fcc]" started-at="2026-09-08T15:39:01 IST" name="configBM" finished-at="2026-09-08T15:39:04 IST" duration-ms="2230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@24313fcc]" started-at="2026-09-08T15:39:04 IST" name="createOrg" finished-at="2026-09-08T15:39:32 IST" duration-ms="27919" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[FaceBook_4978 is created successfully header]]>
-            </line>
-            <line>
-              <![CDATA[FaceBook_4978 is created successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createOrg -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@24313fcc]" started-at="2026-09-08T15:39:32 IST" name="configAM" finished-at="2026-09-08T15:39:41 IST" duration-ms="9510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@24313fcc]" started-at="2026-09-08T15:39:41 IST" name="configAC" finished-at="2026-09-08T15:39:43 IST" duration-ms="1937" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest -->
-      <class name="com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" started-at="2026-09-08T15:38:01 IST" name="configBS" finished-at="2026-09-08T15:38:03 IST" duration-ms="1211" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:35 IST" name="configBS" finished-at="2026-09-10T13:00:36 IST" duration-ms="1016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" started-at="2026-09-08T15:38:03 IST" name="configBC" finished-at="2026-09-08T15:38:10 IST" duration-ms="7325" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:36 IST" name="configBC" finished-at="2026-09-10T13:00:41 IST" duration-ms="5491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" started-at="2026-09-08T15:38:10 IST" name="configBM" finished-at="2026-09-08T15:38:17 IST" duration-ms="6946" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:41 IST" name="configBM" finished-at="2026-09-10T13:00:44 IST" duration-ms="3052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createContact()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" started-at="2026-09-08T15:38:17 IST" name="createContact" finished-at="2026-09-08T15:38:48 IST" duration-ms="31395" status="PASS">
+        <test-method signature="createOrg()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:44 IST" name="createOrg" finished-at="2026-09-10T13:00:49 IST" duration-ms="5180" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[lakshmi4857 is created]]>
+              <![CDATA[FaceBook_3424 is created successfully header]]>
+            </line>
+            <line>
+              <![CDATA[FaceBook_3424 is created successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createContact -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" started-at="2026-09-08T15:38:48 IST" name="configAM" finished-at="2026-09-08T15:38:53 IST" duration-ms="5024" status="PASS">
+        </test-method> <!-- createOrg -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:49 IST" name="configAM" finished-at="2026-09-10T13:00:53 IST" duration-ms="3225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" started-at="2026-09-08T15:38:53 IST" name="configAC" finished-at="2026-09-08T15:38:55 IST" duration-ms="1986" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:53 IST" name="configBM" finished-at="2026-09-10T13:00:55 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="orgWithIndustries()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:55 IST" name="orgWithIndustries" finished-at="2026-09-10T13:00:59 IST" duration-ms="4741" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Instagram_3087 is created successfully header]]>
+            </line>
+            <line>
+              <![CDATA[Instagram_3087 is created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Energy is created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Press is created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orgWithIndustries -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:00:59 IST" name="configAM" finished-at="2026-09-10T13:01:02 IST" duration-ms="2801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:01:02 IST" name="configBM" finished-at="2026-09-10T13:01:03 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="orgWithPhnnum()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:01:03 IST" name="orgWithPhnnum" finished-at="2026-09-10T13:01:08 IST" duration-ms="4056" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[wattsapp_4511 is created successfully header]]>
+            </line>
+            <line>
+              <![CDATA[wattsapp_4511 is created successfully]]>
+            </line>
+            <line>
+              <![CDATA[9878987656 is created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orgWithPhnnum -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:01:08 IST" name="configAM" finished-at="2026-09-10T13:01:10 IST" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:01:10 IST" name="configAC" finished-at="2026-09-10T13:01:11 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest@3bd82cf5]" started-at="2026-09-08T15:39:43 IST" name="configAS" finished-at="2026-09-08T15:39:43 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest@3a52dba3]" started-at="2026-09-10T13:01:11 IST" name="configAS" finished-at="2026-09-10T13:01:11 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.comcast.crm.contacttest.CreateContactWithName_ORG_SupportsDatesTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrg_phnnum_IndustriesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
