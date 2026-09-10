@@ -34,8 +34,8 @@ public class BaseClass {
 	public ExcelUtility eLib = new ExcelUtility();
 	public JavaUtility jLib = new JavaUtility();
 	public WebDriverUtility wLib = new WebDriverUtility();
-	public WebDriver driver;
-	public  WebDriver sdriver; // for listner
+	public WebDriver driver=null;
+	//public  WebDriver sdriver; // for listner
 	
 
 	@BeforeSuite(groups = { "smokeTest", "RegressionTest" })
@@ -89,12 +89,14 @@ public class BaseClass {
 		System.out.println("===logout===");
 		HomePage home = new HomePage(driver);
 		home.signout();
+		
 	}
 
 	@AfterClass(groups = { "smokeTest", "RegressionTest" })
 	public void configAC() {
 		System.out.println("===close Browser===");
-		driver.close();
+		driver.quit();
+		
 	}
 
 	@AfterSuite(groups = { "smokeTest", "RegressionTest" })
