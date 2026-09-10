@@ -67,7 +67,7 @@ public class BaseClass {
 
 		}
 		//sdriver = driver; // for listner but it is not paticepate in parallel execution so creating utility claa
-		UtilityClassObject.setDriver(sdriver);
+		UtilityClassObject.setDriver(driver);
 	}
 
 	@BeforeMethod(groups = { "smokeTest", "RegressionTest" })
