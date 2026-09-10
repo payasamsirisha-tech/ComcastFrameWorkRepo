@@ -34,7 +34,7 @@ public class BaseClass {
 	public ExcelUtility eLib = new ExcelUtility();
 	public JavaUtility jLib = new JavaUtility();
 	public WebDriverUtility wLib = new WebDriverUtility();
-	public WebDriver driver = null;
+	public WebDriver driver;
 	//public  WebDriver sdriver; // for listner
 	
 
@@ -94,7 +94,7 @@ public class BaseClass {
 	@AfterClass(groups = { "smokeTest", "RegressionTest" })
 	public void configAC() {
 		System.out.println("===close Browser===");
-		driver.quit();
+		driver.close();
 	}
 
 	@AfterSuite(groups = { "smokeTest", "RegressionTest" })
