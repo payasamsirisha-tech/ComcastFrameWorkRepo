@@ -6,6 +6,7 @@ import java.util.Date;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
@@ -66,6 +67,10 @@ public class ListnerImpClass implements ITestListener, ISuiteListener {
 	public void onTestFailure(ITestResult result) {
 		String testname = result.getMethod().getMethodName();
 		//TakesScreenshot ts = (TakesScreenshot) BaseClass.sdriver;
+		WebDriver driver=UtilityClassObject.getDriver();
+		if(driver!=null)
+		{
+	 try {
 		TakesScreenshot ts = (TakesScreenshot) UtilityClassObject.getDriver();
 
 		String src = ts.getScreenshotAs(OutputType.BASE64);
@@ -78,6 +83,12 @@ public class ListnerImpClass implements ITestListener, ISuiteListener {
 //		}
 
 		test.addScreenCaptureFromBase64String(src, testname+"_"+time);
+		}
+		catch(Exception e)
+		{
+			System.out.println("ScreenShot Skipped");
+		}
+		}
 		test.log(Status.FAIL, result.getMethod().getMethodName() +" ==>fail");
 
 	}
