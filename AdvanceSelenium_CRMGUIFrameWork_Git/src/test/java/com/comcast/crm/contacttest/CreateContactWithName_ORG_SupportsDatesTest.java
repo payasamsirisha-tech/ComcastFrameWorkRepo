@@ -82,6 +82,8 @@ public class CreateContactWithName_ORG_SupportsDatesTest extends BaseClass {
 
 	@Test(groups = "RegressionTest")
 	public void ContactWithSupportDates() throws IOException, Throwable {
+		
+		UtilityClassObject.getTest().log(Status.INFO, "read the date from excel");
 
 		String lastname = eLib.getDataFromExcel("contact", 4, 2) + jLib.getRandomNumber();
 
