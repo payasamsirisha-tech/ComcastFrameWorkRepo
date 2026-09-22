@@ -6,9 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class OrgInfoPage {
-	WebDriver driver;
 	public OrgInfoPage(WebDriver driver) {
-		this.driver=driver;
+		
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -27,9 +26,6 @@ public class OrgInfoPage {
 	
 	@FindBy(id="dtlview_Organization Name")
 	private WebElement orgnameinfomsg;
-	public WebDriver getDriver() {
-		return driver;
-	}
 
 
 	public WebElement getOrgHeaderMsg() {
